@@ -1,0 +1,109 @@
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
+  @media (max-width: 494px) {
+    .card-heading {
+        font-size:x-large;
+    }
+  }
+  
+  @media (max-width: 494px) {
+    .card-content {
+        font-size:small;
+    }
+  }
+
+  .card-padding {
+    padding: 30px;
+  }
+  
+  @media (max-width: 494px) {
+    .card-padding {
+        padding: 10px;
+    }
+  }
+
+  .tryItFree {
+    width: 300px;
+  }
+  
+  @media (max-width: 494px) {
+    .tryItFree {
+        font-size: 14px;
+        width: 200px;
+    }
+  }
+  
+  @media (max-width: 775px) {
+    .logoResponsive {
+        width: 200px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .welcome-heading {
+        font-size: 50px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .welcome-subheading {
+        font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 494px) {
+    .welcome-heading {
+        font-size: 40px;
+    }
+  }
+  
+  @media (max-width: 494px) {
+    .welcome-subheading {
+        font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 494px) {
+    .mainlogo-responsive {
+        width: 150px;
+    }
+  }
+  
+
+  .navbar-responsive {
+    flex: auto;
+    flex-direction: row;
+    justify-content: end;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar-responsive {
+        flex: auto;
+        flex-direction: column;
+        /* justify-content: end;
+        position: fixed;
+        background-color: beige;
+        padding: 10px;
+        width: 150px; */
+    }
+  }
